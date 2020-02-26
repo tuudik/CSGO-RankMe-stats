@@ -1,6 +1,6 @@
 {
     "serverName": "CSGOmmunismus Overall Stats",
-    "logLevel": "info",
+    "logLevel": "warn",
     "logSQL": false,
     "discordBot": {
         "enabled": true,
@@ -14,9 +14,9 @@
         "port": 8080
     },
     "historicalData": {
-        "enabled": true,
-        "intervalCron": "0 0 * * *",
-        "keepDataForMs": 90678400000,
+        "enabled": false,
+        "intervalCron": " */10 * * * *",
+        "keepDataForMs": 15552000000,
         "tableName": "historicalData"
     }
 }
