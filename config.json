@@ -1,13 +1,13 @@
 {
-    "serverName": "CSGO Server",
+    "serverName": "CSGOmmunismus Overall Stats",
     "logLevel": "info",
     "logSQL": false,
     "discordBot": {
         "enabled": true,
         "prefix": "!",
-        "owner": "220554523561820160",
+        "owner": "679982816481640458",
         "minimumKillsBeforeStatsCalc": "20",
-        "stats_showMedals": false
+        "stats_showMedals": true
     },
     "webserver": {
         "enabled": true,
@@ -16,7 +16,7 @@
     "historicalData": {
         "enabled": true,
         "intervalCron": "0 0 * * *",
-        "keepDataForMs": 2678400000,
+        "keepDataForMs": 90678400000,
         "tableName": "historicalData"
     }
 }

@@ -8,6 +8,10 @@ $(document).ready(async () => {
                     return `<a href="/player/${row.id}">${row.name}</a>`
                 }
             }, {
+		render: function (data, type, row, meta) {
+			return `<code id="steamid${row.id}">${row.steam}</code><button class="btn" data-clipboard-target="#steamid${row.id}"><img class="clippy" width="13" src="static/img/clippy.svg" alt="Copy to clipboard"></button>`
+		}
+	    }, {
                 data: 'score',
             }, {
                 render: function (data, type, row, meta) {

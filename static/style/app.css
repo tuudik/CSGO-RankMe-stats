@@ -10,3 +10,11 @@ ol.two-columns {
     column-count: 2;
     column-gap: 20px;
 }
+code {
+	font-size: 0.8rem;
+	vertical-align: top;
+}
+#overview > tbody > tr > td > button > img {
+
+        vertical-align: top;}
+
